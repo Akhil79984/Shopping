@@ -8,6 +8,7 @@ import Collections from '../Component/Collections'
 import Banner from '../Component/Banner'
 import { Gents, Ladies } from '../data'
 import WomenCollections from '../Component/WomenCollections'
+import ExampleArray from '../../ExampleArray'
 
 const MainPage = () => {
   const [gentsFashion, setgentsFashion]= useState(Gents)
@@ -22,6 +23,7 @@ const MainPage = () => {
       <Collections gentsFashion={gentsFashion}/>
       <WomenCollections WomensFashion={WomensFashion}/>
        <Footer/>
+       
     </div>
   )
 }

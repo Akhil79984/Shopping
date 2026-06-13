@@ -1,5 +1,5 @@
 
- const usedata =[
+ export const userdata =[
   {
     "id": 1,
     "name": "Leanne Graham",

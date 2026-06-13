@@ -7,11 +7,15 @@ import WeatherCard from './Weather/WeatherCard.jsx'
 import Calculator from './CalculatorApp/Calculator.jsx'
 import MainPage from './Shopping App/Pages/MainPage.jsx'
 import FormExample from './FormExample.jsx'
+import ExampleArray from './ExampleArray.jsx'
+import Userlist from './Userlist.jsx'
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <FormExample />
+    <ExampleArray/>
+    <Userlist/>
   </StrictMode>,
 )
